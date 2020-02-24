@@ -1,0 +1,16 @@
+@import "reset";
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/proxima_nova/11096-webfont.woff2') format('woff2'),
+  url('../fonts/proxima_nova/11096-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova-Light It';
+  src: url('../fonts/proxima_nova_italic/proximanova-lightitalic-webfont.woff2') format('woff2'),
+  url('../fonts/proxima_nova_italic/proximanova-lightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+@import "styles";

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QuickMarkuper</title>
+    <link rel="stylesheet" href="dist/bundle.css">
+    <script src="dist/bundle.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <h1>Project</h1>
+    <div class="table">
+        <table>
+            <thead>
+            <tr>
+                <td>
+                    <form>
+                        <input id="all_checkbox" type="checkbox" name="all_project" class="hidden">
+                        <label for="all_checkbox"></label>
+                    </form>
+                </td>
+                <th>#</th>
+                <th>Client</th>
+                <th>Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <form>
+                        <input id="first_checkbox" type="checkbox" name="all_project" class="hidden">
+                        <label for="first_checkbox"></label>
+                    </form>
+                </td>
+                <td>PROJECT #1723</td>
+                <td>Stella</td>
+                <td>
+                    <div class="select_main">
+                        <label>
+                            <select>
+                                <option>----</option>
+                                <option>Draft</option>
+                                <option selected>Sent</option>
+                            </select>
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form>
+                        <input id="second_checkbox" type="checkbox" name="all_project" class="hidden">
+                        <label for="second_checkbox"></label>
+                    </form>
+                </td>
+                <td>PROJECT #1720</td>
+                <td>IT corp international</td>
+                <td>
+                    <div class="select_main">
+                        <label>
+                            <select>
+                                <option>----</option>
+                                <option>Draft</option>
+                                <option selected>Sent</option>
+                            </select>
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="main">
+        <div>
+            <h2 class="rhombus">Project #1</h2>
+            <p>Lerem ipsum dolor sit
+                amet, consectetur </p>
+        </div>
+        <div>
+            <h2 class="star">Project #2</h2>
+            <p>Lerem ipsum dolor sit
+                amet, consectetur </p>
+        </div>
+        <div>
+            <h2 class="flower">Project #3</h2>
+            <p>Lerem ipsum dolor sit
+                amet, consectetur </p>
+        </div>
+        <div>
+            <h2 class="triangle">Project #4</h2>
+            <p>Lerem ipsum dolor sit
+                amet, consectetur </p>
+        </div>
+    </div>
+    <div class="add_project">
+        <h2>Add project</h2>
+        <form>
+            <div class="col_first">
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder="Project #1723">
+                </div>
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="project1723@gmail.com">
+            </div>
+            <div class="col_second">
+                <label for="client">Client</label>
+                <input id="client" type="text" placeholder="Project #1723">
+                <label for="admin">Admin</label>
+                <div class="select_add">
+                    <select id="admin" type="text">
+                        <option >Admin</option>
+                        <option>User</option>
+                    </select>
+                </div>
+            </div>
+            <div >
+                <button class="cancel_project">Cancel</button>
+                <button class="new_project">Add</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
